@@ -1,8 +1,10 @@
-#### Set up paths to the apps
+#### Get the apps
 
 ```sh
-export PATH_TO_IRIS="../iris"
-export PATH_TO_GRPCMATH="../grpcMath"
+git clone https://github.com/bcrabbe/grpcMath
+git clone https://github.com/bcrabbe/iris
+export PATH_TO_IRIS="./iris"
+export PATH_TO_GRPCMATH="./grpcMath"
 ```
 
 #### Install Kubernetes
